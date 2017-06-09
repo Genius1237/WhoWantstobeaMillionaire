@@ -43,7 +43,7 @@ public class AdminModeActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
+//Hello
     private void viewRandomQuestion() {
         QuizGameAdapter quizGameAdapter = new QuizGameAdapter(this);
         Question question = quizGameAdapter.getRandomQuestion();
